@@ -965,3 +965,75 @@ footer {
   .service-tech-grid { justify-content: center; }
   .collab-card { padding: 24px; }
 }
+
+
+/* ========== LOGO STYLES ========== */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.nav-logo span span {
+  color: var(--gold);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--white);
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.footer-logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.footer-logo span span {
+  color: var(--gold);
+}
+
+/* Responsive pour mobiles */
+@media (max-width: 768px) {
+  .nav-logo-img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .nav-logo {
+    font-size: 18px;
+    gap: 8px;
+  }
+  
+  .footer-logo-img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .footer-logo {
+    font-size: 24px;
+  }
+}
