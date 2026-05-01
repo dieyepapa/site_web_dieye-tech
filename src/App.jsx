@@ -217,7 +217,7 @@ const App = () => {
             <div className="service-tech-grid">
               <span className="tech-tag">React / Next.js</span>
               <span className="tech-tag">JavaScript / TypeScript / Tailwind CSS</span>
-              <span className="tech-tag">Node.js / Laravel / Django</span>
+              <span className="tech-tag">Laravel / Django</span>
               <span className="tech-tag">Python / IA</span>
               <span className="tech-tag">MySQL / PostgreSQL / SQLite</span>
             </div>
@@ -419,7 +419,7 @@ const App = () => {
                   <span className="collab-contact-icon" dangerouslySetInnerHTML={{ __html: icons.phone }} />
                   <span>+221 78 262 41 46</span>
                 </a>
-                <a href="https://wa.me/221762101794" className="collab-contact-item">
+                <a href="https://wa.me/221" className="collab-contact-item">
                   <span className="collab-contact-icon" dangerouslySetInnerHTML={{ __html: icons.whatsapp }} />
                   <span>WhatsApp : +221 76 210 17 94</span>
                 </a>
@@ -466,7 +466,7 @@ const App = () => {
             
             <div className="portfolio-cta">
               <a 
-                href="https://votre-portfolio.com" 
+                href="https://abdoulaye-dieye.vercel.app/" 
                 className="portfolio-button"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -475,7 +475,7 @@ const App = () => {
                 <span className="portfolio-button-arrow" dangerouslySetInnerHTML={{ __html: icons.arrowRight }} />
               </a>
               <p className="portfolio-note">
-                {getText('Découvrez 3 mes projets, études de cas et réalisations', 'Discover all my projects, case studies and achievements')}
+                {getText('Découvrez mes projets, études de cas et réalisations', 'Discover all my projects, case studies and achievements')}
               </p>
             </div>
           </div>
@@ -511,7 +511,7 @@ const App = () => {
                 </div>
               </div>
               <div className="contact-social">
-                <a href="#" className="social-btn" dangerouslySetInnerHTML={{ __html: icons.linkedin }} title="LinkedIn" />
+                <a href="https://www.linkedin.com/in/abdoulaye-dieye-047a7a24b/recent-activity/all/" className="social-btn" dangerouslySetInnerHTML={{ __html: icons.linkedin }} title="LinkedIn" />
                 <a href="#" className="social-btn" dangerouslySetInnerHTML={{ __html: icons.instagram }} title="Instagram" />
                 <a href="#" className="social-btn" dangerouslySetInnerHTML={{ __html: icons.twitter }} title="Twitter/X" />
                 <a href="#" className="social-btn" dangerouslySetInnerHTML={{ __html: icons.github }} title="GitHub" />
@@ -526,7 +526,7 @@ const App = () => {
                     <div className="contact-item-value">+221 78 262 41 46</div>
                   </div>
                 </a>
-                <a href="https://wa.me/221762101794" className="contact-item">
+                <a href="https://wa.me/221" className="contact-item">
                   <div className="contact-icon" dangerouslySetInnerHTML={{ __html: icons.whatsapp }} />
                   <div>
                     <div className="contact-item-label">WhatsApp</div>

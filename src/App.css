@@ -807,7 +807,7 @@ section { padding: var(--section-pad); }
 .contact-icon {
   width: 48px;
   height: 48px;
-  background: rgba(201,168,76,0.1);
+  background: rgba(255, 255, 255, 1);
   border-radius: 12px;
   display: flex;
   align-items: center;
